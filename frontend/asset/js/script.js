@@ -12,7 +12,8 @@ const camera = new THREE.PerspectiveCamera(
 
 const renderer = new THREE.WebGLRenderer({
   canvas: app,
-  // alpha: true
+  antialias: true,
+  alpha: true
 });
 renderer.setSize(500, 500);
 renderer.setAnimationLoop(animate);

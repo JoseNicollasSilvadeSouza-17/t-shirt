@@ -39,3 +39,10 @@ body {
 button {
   font-size: inherit;
 }
+
+.footer {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  width: 100%;
+}
